@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 //basico
 
 class BasicoPage extends StatelessWidget {
-  
+
   final estiloTitulo    = TextStyle( fontSize: 20.0, fontWeight: FontWeight.bold );
   final estiloSubTitulo = TextStyle( fontSize: 18.0, color: Colors.grey );
 
@@ -11,21 +11,21 @@ class BasicoPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: Column(
-          children: <Widget>[
-            _crearImagen(context),
-            _crearTitulo(),
-            _crearAcciones(),
-            _crearTexto(),
-            _crearTexto(),
-            _crearTexto(),
-            _crearTexto(),
-            _crearTexto(),
-            _crearTexto(),
-          ],
-        ),
-      )
+        body: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[
+              _crearImagen(context),
+              _crearTitulo(),
+              _crearAcciones(),
+              _crearTexto(),
+              _crearTexto(),
+              _crearTexto(),
+              _crearTexto(),
+              _crearTexto(),
+              _crearTexto(),
+            ],
+          ),
+        )
     );
   }
 
@@ -44,7 +44,7 @@ class BasicoPage extends StatelessWidget {
   }
 
   Widget _crearTitulo() {
-    
+
     return SafeArea(
       child: Container(
         padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 20.0),
@@ -104,7 +104,7 @@ class BasicoPage extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.symmetric( horizontal: 40.0 ),
         child: Text(
-          'Sit minim aliqua minim laborum duis occaecat consectetur aliquip id ad deserunt. Adipisicing qui reprehenderit eu eu qui occaecat exercitation et aliqua laboris dolor. Nisi duis consectetur veniam id nulla deserunt aliqua velit ullamco. Deserunt exercitation adipisicing nostrud amet eu.',
+          'Sit minim aliqua minim laborum duis occaecat consectetur aliquip id ad deserunt. inim laborum duis occaecat consectetur aliquip id inim laborum duis occaecat consectetur aliquip id inim laborum duis occaecat consectetur aliquip id inim laborum duis occaecat consectetur aliquip id inim laborum duis occaecat consectetur aliquip id inim laborum duis occaecat consectetur aliquip id Adipisicing qui reprehenderit eu eu qui occaecat exercitation et aliqua laboris dolor. Nisi duis consectetur veniam id nulla deserunt aliqua velit ullamco. Deserunt exercitation adipisicing nostrud amet eu.',
           textAlign: TextAlign.justify,
         ),
       ),
