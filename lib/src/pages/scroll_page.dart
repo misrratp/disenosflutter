@@ -34,7 +34,7 @@ class ScrollPage extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: double.infinity,
-      color: Color.fromRGBO(108, 192, 218, 1.0),
+      color: Color.fromARGB(255, 233, 54, 0),
     );
 
   }
