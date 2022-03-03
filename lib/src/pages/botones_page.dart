@@ -86,9 +86,9 @@ class BotonesPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('Clasificar transaccion', style: TextStyle( color: Color.fromARGB(255, 0, 255, 242), fontSize: 30.0, fontWeight: FontWeight.bold )),
+            Text('PAGINATION ', style: TextStyle( color: Color.fromARGB(255, 0, 255, 242), fontSize: 30.0, fontWeight: FontWeight.bold )),
             SizedBox( height: 10.0 ),
-            Text('Clasifica esta transaccion en una categoria particular', style: TextStyle( color: Color.fromARGB(255, 255, 255, 255), fontSize: 18.0 )),
+            Text('Clasifica esta transaccion en una categoria ', style: TextStyle( color: Color.fromARGB(255, 255, 255, 255), fontSize: 18.0 )),
           ],
         ),
       ),
@@ -139,7 +139,7 @@ class BotonesPage extends StatelessWidget {
         ),
         TableRow(
             children: [
-              _crearBotonRedondeado( Colors.pinkAccent, Icons.shop, 'Comprar' ),
+              _crearBotonRedondeado( Colors.pinkAccent, Icons.shop, 'Compras' ),
               _crearBotonRedondeado( Color.fromARGB(255, 145, 64, 27), Icons.insert_drive_file, 'Archivo' ),
             ]
         ),
@@ -151,7 +151,7 @@ class BotonesPage extends StatelessWidget {
         ),
         TableRow(
             children: [
-              _crearBotonRedondeado( Colors.red, Icons.collections, 'Fotos' ),
+              _crearBotonRedondeado( Colors.red, Icons.collections, 'Galeria' ),
               _crearBotonRedondeado( Colors.teal, Icons.help_outline, 'General' ),
             ]
         )
